@@ -25,7 +25,7 @@ jobs:
       run: |
         make test
 
-    - name: Format code
+    - name: Format with Python Black
       run: |
         make format
 
